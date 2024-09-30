@@ -1,9 +1,11 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "nourmodz.fixies.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+      "EntityZombieMixin",
+      "EntitySkeletonMixin"
     ],
     "client": [
     ],

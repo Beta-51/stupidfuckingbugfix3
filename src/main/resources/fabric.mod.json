@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "bugfixernour",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Stupid bug fix 3",
+  "description": "Fixes a rare crash with zombies and skeletons trying to get null weather data",
   "authors": [
-    "Turnip Labs"
+    "Nour"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"nourmodz.fixies.stupidbugfix3"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"nourmodz.fixies.stupidbugfix3"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"nourmodz.fixies.stupidbugfix3"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"nourmodz.fixies.stupidbugfix3"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "stupidbugfix3.mixins.json"
   ],
 
   "depends": {
